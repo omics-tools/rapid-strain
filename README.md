@@ -32,10 +32,9 @@ Set up for requirement packages
 |:-----------|:------------|:------------|
 | **-fa**      | input FASTA (may be gzipped) |.fa/.fas/.fasta|
 | **-fq**      | input FASTQ (may be gzipped) |.fq/fastq|
-| **-t**       | target genus/species (See the list of supported genus/species
-                names) (**required**) | (e.g.) -t campylobacter |
+| **-t**       | target genus/species (See the list of supported genus/species names) (**required**) | (e.g.) -t campylobacter |
 | **-p**       | Multi threads process for mash  | default: 1 |
-| **-tmp**       |  Temporary output directory | default: The directory in the input file |
+| **-tmp**     | Temporary output directory | default: The directory in the input file |
 | **-v**       | Program's version number and exit  | |
 | **-h**       | Help message and exit         | |
 
