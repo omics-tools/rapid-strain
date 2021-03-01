@@ -24,7 +24,7 @@ Set up for requirement packages
 
 ### Usage
 
-`python rapid-strain.py -fa query.fa -t species/genus [-p threads ]`
+`python rapid-strain.py -fa query.fa -t species/genus [-p threads ] [-tmp tmp_dir]`
 
 **optional arguments:**
 
