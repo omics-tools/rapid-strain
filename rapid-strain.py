@@ -18,7 +18,6 @@ parser.add_argument('-fa',action='store',dest='fa',help='input FASTA (may be gzi
 parser.add_argument('-fq',action='store',dest='fq',help='input FASTQ (may be gzipped)',default='')
 parser.add_argument('-t',action='store',dest='target',help='target genus/species (See the list of supported genus/species names)',default='')
 parser.add_argument('-p',action='store',dest='threads',help='Multi threads process for mash (Default:1)',default=1)
-parser.add_argument('-m',action='store',dest='target',help='Minimum rate of shared-hashes with markers (default:0.9)',default=0.9)
 parser.add_argument('-tmp',action='store',dest='tmp_dir',help='Temporary output directory (output directory for intermediate files) defaul:The same directory as the input file',default='')
 parser.add_argument('-v',action='version',version='Version : 0.0.1')
 
