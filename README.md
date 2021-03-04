@@ -26,7 +26,7 @@ Clone this repository into your local machine
 
 `python rapid-strain.py -fa query.fa -t species/genus [-p threads ] [-tmp tmp_dir]`
 
-___
+<br>
 **optional arguments:**
 
 | Flag | Description | File type, Default, Example etc. |
@@ -39,7 +39,7 @@ ___
 | **-v**       | Program's version number and exit  | |
 | **-h**       | Help message and exit         | |
 
-___
+<br>
 **Genus/species supported by Rapid-Strain:**
 | Scheme (Target)      | Genus             | Species            | Marker | Sequence Types |
 |----------------------|-------------------|--------------------|--------|----------------|
