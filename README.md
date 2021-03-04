@@ -41,7 +41,7 @@ Set up for requirement packages
 | **-v**       | Program's version number and exit  | |
 | **-h**       | Help message and exit         | |
 
-**Genus/species supported by Rapid-Strain**
+### Genus/species supported by Rapid-Strain
 | Scheme (Target)      | Genus             | Species            | Marker | Sequence Types |
 |----------------------|-------------------|--------------------|--------|----------------|
 | abaumannii           | Acinetobacter     | baumannii          | 7      | 14609          |
