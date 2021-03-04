@@ -5,6 +5,9 @@ Rapid estimation of microbial strains from NGS data
 ## Requirement python packages
 pandas (Test enviroment: Python 2.7)
 
+Set up for requirement packages
+`pip install pandas`
+
 ## Requirement tools
 
 ・[MASH](https://mash.readthedocs.io/en/latest/index.html): Fast genome and metagenome distance estimation using MinHash
@@ -13,12 +16,9 @@ pandas (Test enviroment: Python 2.7)
 
 Please refer to the official site for details of the installation of these packages.
 
-## Installation
+## Installation of Rapid-Strain
 Clone this repository into your local machine
 `git clone https://github.com/omics-tools/rapid-strain.git`
-
-Set up for requirement packages
-`pip install pandas`
 
 ## Getting started
 
@@ -33,9 +33,6 @@ Set up for requirement packages
 | **-fa**      | input FASTA (may be gzipped) |.fa/.fas/.fasta|
 | **-fq**      | input FASTQ (may be gzipped) |.fq/.fastq|
 | **-t**       | target scheme name (See the list of supported genus/species names) (**required**) | (e.g.) -t campylobacter |
-| **-fa**      | input FASTA  (**required**) |.fa/.fas/.fasta|
-| **-fq**      | input FASTQ  (**required**) |.fq/.fastq|
-| **-t**       | target genus/species (See the list of supported genus/species names) (**required**) | (e.g.) -t campylobacter |
 | **-p**       | Multi threads process for mash  | default: 1 |
 | **-tmp**     | Temporary output directory | default: The directory in the input file |
 | **-v**       | Program's version number and exit  | |
