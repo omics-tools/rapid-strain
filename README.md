@@ -33,7 +33,6 @@ Set up for requirement packages
 | **-fa**      | input FASTA (may be gzipped) |.fa/.fas/.fasta|
 | **-fq**      | input FASTQ (may be gzipped) |.fq/.fastq|
 | **-t**       | target scheme name (See the list of supported genus/species names) (**required**) | (e.g.) -t campylobacter |
-=======
 | **-fa**      | input FASTA  (**required**) |.fa/.fas/.fasta|
 | **-fq**      | input FASTQ  (**required**) |.fq/.fastq|
 | **-t**       | target genus/species (See the list of supported genus/species names) (**required**) | (e.g.) -t campylobacter |
