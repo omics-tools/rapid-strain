@@ -26,6 +26,7 @@ Clone this repository into your local machine
 
 `python rapid-strain.py -fa query.fa -t species/genus [-p threads ] [-tmp tmp_dir]`
 
+---
 **optional arguments:**
 
 | Flag | Description | File type, Default, Example etc. |
@@ -38,7 +39,8 @@ Clone this repository into your local machine
 | **-v**       | Program's version number and exit  | |
 | **-h**       | Help message and exit         | |
 
-### Genus/species supported by Rapid-Strain
+---
+**Genus/species supported by Rapid-Strain:**
 | Scheme (Target)      | Genus             | Species            | Marker | Sequence Types |
 |----------------------|-------------------|--------------------|--------|----------------|
 | abaumannii           | Acinetobacter     | baumannii          | 7      | 14609          |
@@ -156,7 +158,7 @@ Clone this repository into your local machine
 | ypseudotuberculosis  | Yersinia          | pseudotuberculosis | 7      | 3689           |
 | yruckeri             | Yersinia          | ruckeri            | 6      | 180            |
 
-These lists are based on the scheme names in [PubMLST](https://pubmlst.org/) and [mlst](https://github.com/tseemann/mlst).
+This list is based on the scheme names in [PubMLST](https://pubmlst.org/) and [mlst](https://github.com/tseemann/mlst).
 
 ## Version
 
