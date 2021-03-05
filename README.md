@@ -165,4 +165,4 @@ This list is based on the scheme names in [PubMLST](https://pubmlst.org/) and [m
 
 ## Licence
 
-[MIT] https://github.com/omics-tools/mitoimp/blob/master/LICENSE
+[MIT] https://github.com/omics-tools/rapid-strain/blob/master/LICENSE
